@@ -1,3 +1,136 @@
+    7  git
+    8  $ brew install git
+    9  $git --version
+   13  brew install git
+   14  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   15  brew install git
+   16  brew install git
+   17  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   18  brew install git
+   20  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   22  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   27  brew install git
+   28  git
+   50  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   51  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   54  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  389  pip install git+https://github.com/JJGO/thunderpack.git
+  590  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  912  git --version
+  929  git status
+  930  git commit
+  933  git --version
+  934  git config --global user.name "Daniel Sumsion"
+  935  git config -- global user.email dsumsio@byu.edu
+  936  git config -- global init.defaultBranch main
+  937  git --version
+  946  git --version
+  947  git config --list
+  952  mdir git-practice-dsumsio
+  953  mkdir git-practice-dsumsio
+  955  git init
+  956  git status
+  958  rm .git
+  960  rm -rf .git
+  963  cd git-practice-dsumsio
+  965  git init
+  970  git status
+  971  git add "file_1.txt file_2.txt"
+  972  git add "file_1.txt"
+  973  git add "file_2.txt"
+  974  git status
+  975  git commit -m "create new files"
+  976  git status
+  977  git log
+  978  git status
+  979  git add file_1.txt
+  980  git status
+  981  git commit -m "changes to file_1.txt"
+  982  git add file_2.txt
+  983  git commit -m "changes to file_2.txt"
+  984  git status
+  985  git log
+  988  git log
+  989  git status
+  990  git status
+  991  git add Readme.md
+  992  git commit -m "adding Readme file"
+  993  touch .gitignore
+  995  git status
+  996  git add .gitignore
+  997  git status
+  998  git commit -m "gitignore intialized"
+ 1000  git status
+ 1001  git status
+ 1002  git status
+ 1003  git branch
+ 1004  git checkout -b features
+ 1005  git branch
+ 1006  git log
+ 1008  git status
+ 1009  git add new_features.txt
+ 1010  git status
+ 1011  git commit "add empty file"
+ 1012  git commit -m "add empty file"
+ 1013  git status
+ 1014  git add new_features.txt
+ 1015  git status
+ 1016  git commit -m "update to new_features.txt"
+ 1018  git branch
+ 1019  git switch main
+ 1020  git branch
+ 1022  git status
+ 1023  git add file_1.txt
+ 1024  git status
+ 1025  git commit -m "updated file_1"
+ 1026  git branch
+ 1027  git merge features -m "merging the branch"
+ 1028  git log
+ 1030  git status
+ 1031  git add new_features.txt
+ 1032  git status
+ 1033  git commit -m "update to new_features"
+ 1034  git branch
+ 1035  git switch
+ 1036  git swtich features
+ 1037  git switch features
+ 1038  git branch
+ 1039  git status
+ 1040  git add new_features.txt
+ 1041  git status
+ 1042  git commit -m "preparing conflict"
+ 1043  git branch
+ 1044  git swtich main
+ 1045  git switch main
+ 1046  git branch
+ 1047  git merge features
+ 1048  git merge features
+ 1050  git status
+ 1051  git add new_features.txt
+ 1052  git commit -m "fixing conflict"
+ 1053  git branch
+ 1055  git merge features
+ 1056  git branch
+ 1057  git branch -d features
+ 1058  git branch
+ 1059  git status
+ 1060  git add .
+ 1061  git commit -m "fixing gitignore file"
+ 1062  git remote add origin git@github.com:dsumsio/git-practice-dsumsio.git
+ 1063  git push -u origin main
+ 1070  git clone git@github.com:dsumsio/lab1practice-jerhomie2.git
+ 1074  git status
+ 1075  git switch -c feature-DanSumsion
+ 1076  git branch
+ 1077  git switch main
+ 1078  git branch
+ 1079  git branch -d feature-DanSumsion
+ 1080  git branch
+ 1081  git switch -c feature-dsumsio
+ 1082  git branch
+ 1084  git status
+ 1085  git add answers2final.txt
+ 1086  git status
  1087  git commit -m "added answers2final.txt"
  1088  git push orgin feature-dsumsio
  1089  git push
@@ -7,3 +140,9 @@
  1098  git pull
  1099  git branch
  1101  git log --oneline > gitlog.txt
+ 1103  history | grep git > history.txt
+ 1105  git add history.txt
+ 1106  git add gitlog.txt
+ 1107  git status
+ 1108  git commit -m "preping submission files"
+ 1109  git push
