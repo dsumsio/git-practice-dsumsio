@@ -1,0 +1,15 @@
+376a379 Merge pull request #1 from jerhomie2/feature-jerhomie2
+804590c made jaromsfile
+0801ad0 fixing gitignore file
+daad965 fixing conflict
+41c9efb preparing conflict
+06ddd26 update to new_features
+55b7015 merging the branch
+bad5804 updated file_1
+06a25d0 update to new_features.txt
+e19ee18 add empty file
+4571cef gitignore intialized
+45df4b2 adding Readme file
+6fe6e2d changes to file_2.txt
+45127be changes to file_1.txt
+bc693b6 create new files

@@ -1,0 +1,9 @@
+ 1087  git commit -m "added answers2final.txt"
+ 1088  git push orgin feature-dsumsio
+ 1089  git push
+ 1090  git push origin feature-dsumsio
+ 1095  cd git-practice-dsumsio
+ 1097  git pull
+ 1098  git pull
+ 1099  git branch
+ 1101  git log --oneline > gitlog.txt
